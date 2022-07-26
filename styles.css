@@ -2,9 +2,20 @@
     padding: 0;
     margin: 0;
     list-style: none;
+    
 }
 
 .logoyredes {
-    background-color: blue;
+    background-color: rgb(154, 154, 236);  
 }
+.redesiconos li a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+
 
