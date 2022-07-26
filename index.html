@@ -5,27 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Soy Franco</title>
+
+  <!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    
     <link rel="stylesheet" href="styles.css">
     
 
 </head>
 <body>
     <header>
+      <section class="logoyredes ">
         <div class="logo">
-          <img src="" alt="logo de argentina Programa"><a href="#">"Argentina Programa"
+          <img src="img/APLogo-20-20.png"  alt="logo de argentina Programa"><a href="#">"Argentina Programa"
               #YoProgramo </a>
         </div>
-        <div class="banner">
-          <h1>banner</h1>
-          <P>Deberá tener un Banner representativo tuyo, siendo una parte importante de tu           identidad</P>
-        </div>
+        
         <!-- Redes Sociales -->
-      <div  class="redesiconos">
+      <div  class="redesiconos" col-sm-3>
        <ul>
         <li><a href="https://github.com/FrancoBallerini" target="_blank">logo GitHub</a></li>
         <li><a href="https://www.linkedin.com/in/franco-eduardo-ballerini-b7536b110/" target="_blank">logo linkedin</a></li>
         <li><a href="#login">Login</a></li>
        </ul>
+      </div>
+
+
+      </section>
+        
+      <div class="banner">
+        <h1>banner</h1>
+        <P>Deberá tener un Banner representativo tuyo, siendo una parte importante de tu           identidad</P>
       </div>
         
     </header> 
@@ -34,7 +44,7 @@
         <li><a href="#Acercade">Acerca de...</a></li>
         <li><a href="#experiencia">Experiencia</a></li>
         <li><a href="#educacion">Educacion</a></li>
-        <li><a href="#skills">Hard & Soft Skills</a></li>
+        <li><a href="#skills">Habilidades</a></li>
         <li><a href="#proyectos">Proyectos</a></li>
         <li><a href="#contacto"></a>Contacto</li>
       </ul>
@@ -47,10 +57,7 @@
           Developer Jr); En esta sección debes poner información profesional resumida sobre vos. </p>
         <img src="" alt="foto personal">
         <div class="datospersonales">
-          <ul>
-            <li><b><u>Apellido y Nombre:</u></b><p>Ballerini Franco</p></li>
-            <li><b><u>Titulo:</u></b><p>Full Stack Developer Jr</p></li>
-          </ul>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, facere commodi! Cumque necessitatibus doloribus saepe itaque consectetur labore ea nisi quae? Repellat voluptates recusandae pariatur eveniet at quod impedit sit, ipsa rem.</p>
         </div>
         
       </article>
@@ -68,9 +75,55 @@
       </article>
 
       <article class="skills" id="skills">
-        <h1>Hard & Soft Skills</h1>
+        <h1>Habilidades</h1>
         <p>Visualizado como porcentajes u otra forma de visualización atractiva colocarás tus habilidades duras y blandas relacionadascontigo y qué grado de dominio tienes, puedes      también generar una secciónadicional con los idiomas
         </p>
+        <div>
+          <label for="file">HTML</label>
+         <progress id="file" max="100" value="80"> 80% </progress>
+         <label for="file">CSS</label>
+         <progress id="file" max="100" value="85"> 85% </progress>
+         <label for="file">JavaScript</label>
+         <progress id="file" max="100" value="73"> 70% </progress>
+         <label for="file">Boostrap</label>
+         <progress id="file" max="100" value="77"> 70% </progress>
+         <label for="file">Angular</label>
+         <progress id="file" max="100" value="85"> 70% </progress>
+        </div>
+        <div class="contenedorprogreso">
+          <div class="progreso pro-1">
+            <div class="ciculo1">
+              <h1>80%</h1>
+              <h1>HTML:5</h1>
+            </div>
+          </div>
+          <div class="progreso pro-2">
+            <div class="ciculo2">
+              <h1>88%</h1>
+              <h1>CSS</h1>
+            </div>
+          </div>
+          <div class="progreso pro-3">
+            <div class="ciculo3">
+              <h1>70%</h1>
+              <h1>javaScript</h1>
+            </div>
+          </div>
+          <div class="progreso pro-4">
+            <div class="ciculo4">
+              <h1>77%</h1>
+              <h1>Boostrap</h1>
+            </div>
+          </div>
+          <div class="progreso pro-5">
+            <div class="ciculo5">
+              <h1>77%</h1>
+              <h1>Angular</h1>
+            </div>
+          </div>
+
+        </div>
+
       </article>
 
 
@@ -136,6 +189,10 @@
         </div>
         </form>
       </section>
-     
+
+
+     <!-- Bootstrap JS -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin= "anonymous"></script>
 </body>
 </html>
