@@ -3,13 +3,14 @@
     margin: 0;
     list-style: none;
     
+    
 }
 
 .logoyredes {
     background-color: rgb(154, 154, 236);  
 }
 .redesiconos li a {
-    float: left;
+    float:left;
     display: block;
     color: white;
     text-align: center;
@@ -17,5 +18,8 @@
     text-decoration: none;
     
   }
+.banner img {
+    width: 100%;
+}
 
 
