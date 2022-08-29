@@ -1,10 +1,8 @@
-* {
+*{
     padding: 0;
     margin: 0;
     list-style: none;
-    background-color: black;
-    
-    
+    background-color:black;
 }
 a {
     text-decoration: none;
@@ -14,95 +12,90 @@ li {
     padding : 15px 15px;
 }
 
+p {
+    color: #03a9be;
+    margin: 10px;
+    padding: 10px;
+}
+
+h1, h5, h6 {
+    text-align: center;
+    color: #00bcd4;
+    margin:25px;
+}
+
+article{
+    text-align: center;
+    margin:10px;
+    padding: 10px;
+    
+}
+.btn-right{
+    position: absolute;
+    right: 10px;
+}
+
+input{
+    color: #03a9be;
+    margin: 10px;
+    padding: 10px;
+}
+
 /*Banner*/
 
 .banner {
-    max-width: 900px;
+    
     margin: auto;
     padding:20px;
-}
-.neon-titulo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 60px;
-    font-family: monospace;
-}
-.neon-titulo .texto{
-      position: relative;
-}
-.neon-titulo .texto h1{
-    font-size:90px;
-    font-weight: bolder;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    color: transparent;
-    text-shadow: 1px 1px 25px #00bcd4;
-    -webkit-text-stroke: 2px #00bcd4;
-}
-.neon-titulo .texto h1:nth-child(2){
-    position: absolute;
-    top: 0;
-    left: 0;
-    color: #00bcd4;
-    animation: neon-titulo 3s ease-in-out infinite;
-}
-
-
-@keyframes neon-titulo {
-    0%,100% {
-      clip-path: polygon(0% 51%, 13% 48%, 26% 50%, 37% 53%, 50% 55%, 61% 58%, 76% 60%, 91% 59%, 100% 51%, 100% 100%, 0 100%);
-    }
-    50% {
-    clip-path: polygon(0 51%, 9% 57%, 21% 62%, 36% 63%, 49% 57%, 60% 50%, 75% 46%, 91% 44%, 100% 42%, 100% 100%, 0 100%);
-    }
-  }
-    
-  
-p {
-    color: #03a9be;
-}
-
-H1, h6 {
-    text-align: center;
-    color: #00bcd4;
-}
-article{
-    text-align: center;
-}
-/*Acerca de...*/
-
-.fotoperfil {
-    width: 150px;
-    height: 150px;
-    float: left;
-    margin:0px 30px 30px;
 }
 
 /*habilidades*/
 
 .card {
-    background-color:#1d1d1d;
+    background-color: black;  
     height:220px;
     width: 250px;
     margin:20px;
     padding:20px;
     align-items: center;
     justify-content: center;
+    border:#00bcd4 solid;
 }
 
 
-/*Progyectos*/
 
-.cardgaleria {
-    background-color:#1d1d1d;
-    height:220px;
-    width: 250px;
-    margin:20px;
-    padding:20px;
+
+/*Proyectos*/
+
+
+
+
+.cardgaleria img {
+    width: 100px;
+    height:auto;
+  
+    
 }
-
 .cardgaleria p{
     
-    margin-top:130px;
+    text-align:center;
+    
+}
+ 
+
+
+.cardgaleria{
+    
+    margin:auto;
+    padding:9px;
+    box-shadow: 3px 2px 25px  #00bcd4;
+  
+}
+
+
+
+footer{
+    background-color:#1d1d1d;
+    color:#00bcd4;
+
 }
